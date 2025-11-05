@@ -1,0 +1,36 @@
+00:00:38:13	00:00:42:13	We've received reports that the orcs are regrouping. 
+00:00:42:14	00:00:46:12	Certainly the recent attacks against the<p> internment camps are evidence enough. 
+00:00:47:04	00:00:49:16	Agreed. The Horde is on the move. 
+00:00:49:17	00:00:51:13	This is absurd! 
+00:00:51:14	00:00:57:07	My nation will not stand by and watch as the<p> Horde masses on our very doorstep! 
+00:00:57:08	00:01:01:06	The orcs are not our primary concern here! 
+00:01:02:02	00:01:04:09	How many times must I repeat myself? 
+00:01:05:07	00:01:09:03	King Terenas, you must heed my warning! 
+00:01:09:17	00:01:14:06	This plague that has gripped the<p> northlands could have dire ramifications. 
+00:01:14:07	00:01:17:19	Plague? You wizards are just being paranoid! 
+00:01:25:00	00:01:27:11	Let's keep all this in perspective. 
+00:01:27:12	00:01:31:00	Even if this "plague" does pose a threat to us, 
+00:01:31:01	00:01:33:12	what are you proposing that we do? 
+00:01:33:13	00:01:35:07	It is simple. 
+00:01:35:08	00:01:41:14	As I have said, the Kirin Tor are already prepared<p> to place the villages under strict quarantine. 
+00:01:41:15	00:01:48:02	I will not institute quarantine without<p> proof of your claims, Ambassador. 
+00:01:48:03	00:01:54:00	The people of Lordaeron have suffered enough<p> without becoming prisoners in their own lands. 
+00:02:11:19	00:02:14:21	Yet, prisoners they are, good king. 
+00:02:15:22	00:02:20:00	What is the meaning of this? Who are you? 
+00:02:20:10	00:02:22:12	Humanity is in peril! 
+00:02:22:13	00:02:25:02	The tides of darkness have come again, 
+00:02:25:03	00:02:28:18	and the whole world is poised upon the brink of war! 
+00:02:28:19	00:02:32:21	Enough of this! Guards, remove this madman! 
+00:02:33:01	00:02:34:07	Hear me!  
+00:02:34:22	00:02:38:03	The only hope for your people is to travel west 
+00:02:38:13	00:02:40:16	to the forgotten lands of Kalimdor. 
+00:02:40:17	00:02:42:09	Travel west?! Are you mad? 
+00:02:42:10	00:02:48:12	Hold, Ambassador!<p> I don't know who you are or what you believe, 
+00:02:48:13	00:02:52:04	but this is not the time for rambling prophets. 
+00:02:52:13	00:02:55:06	Our lands are beset by conflict, 
+00:02:55:13	00:03:00:02	but it shall be we who decide<p> how best to protect our people, 
+00:03:00:03	00:03:03:22	not you! Now begone! 
+00:03:04:19	00:03:10:19	I failed humanity once before,<p> and I will not do so again. 
+00:03:11:05	00:03:17:09	If you cannot take up this cup,<p> then I shall find another who will. 
+00:03:25:19	00:03:28:08	The warning has been given. 
+00:03:29:18	00:03:32:11	Their fate is now their own. 

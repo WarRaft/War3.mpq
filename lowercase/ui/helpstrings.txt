@@ -1,0 +1,137 @@
+|Cffc5ff26MENU COMMANDS|r
+
+|Cfffed312F9|r
+- Toggle the Quest Log on/off.
+
+|Cfffed312F10|r
+- Toggle the Game menu on/off.
+
+|Cfffed312F11|r
+- Toggle the Allies menu on/off.
+
+|Cfffed312F12|r
+- Toggle the Chat menu on/off.
+
+|Cfffed312Alt - F4|r
+- Exit Warcraft III.
+
+|Cfffed312F6|r
+- Quick Save.
+
+|Cfffed312Alt - Q|r
+- Activate the End Game menu.
+
+|Cfffed312Alt - O|r
+- Activate the Options menu.
+
+|Cfffed312Alt - S|r
+- Activate the Save menu.
+
+|Cfffed312Alt - L|r
+- Activate the Load menu.
+
+|Cfffed312Alt - H|r
+- Activate the Help menu.
+
+|Cfffed312Ctrl - M|r
+- Toggle music on/off.
+
+|Cfffed312Ctrl - S|r
+- Toggle SFX on/off.
+
+|Cfffed312Esc|r
+- Return to previous menu.
+
+
+|Cffc5ff26GAME COMMANDS|r
+
+|Cfffed312Left Mouse Button|r
+- Select units, buildings, command buttons, and points of action (where orders are to be carried out):
+   |Cffa1acff-- Selects units and buildings on screen.|r
+   |Cffa1acff-- Activates buttons from unit's command card.|r
+   |Cffa1acff-- Confirms placement of a command, building, ability, or item.|r
+   |Cffa1acff-- Uses an item from a Hero's inventory.|r
+   |Cffa1acff-- Changes game view to location on minimap.|r
+
+|Cfffed312Right Mouse Button|r
+- Perform "smart" actions on target units/buildings, ground, or minimap:
+   |Cffa1acff-- Ground - Moves unit to location, ignoring attacks.|r
+   |Cffa1acff-- Enemy unit or building - Attacks target.|r
+   |Cffa1acff-- Friendly unit - Follows target.|r
+   |Cffa1acff-- Tree or gold mine - Moves unit to location (gathers resources if a worker unit).|r
+   |Cffa1acff-- Item on ground - Hero moves to pick up item.|r
+   |Cffa1acff-- Item in Hero's inventory - Picks up item.|r
+   |Cffa1acff-- When targeting cursor is active - Cancels command.|r
+   |Cffa1acff-- When targeting cursor is active and over the minimap - Changes game view to location on minimap.|r
+
+|Cfffed312Middle Mouse Button|r
+- Hold down to scroll game view with mouse.
+
+|Cfffed312Esc|r
+- Cancel commands.
+
+|Cfffed312Enter|r
+- Activate message prompt. Press |Cfffed312Enter|r again to send message.
+
+|Cfffed312Shift + Enter|r
+- Activate message prompt to "All" players. Press |Cfffed312Enter|r again to send message.
+
+|Cfffed312Ctrl + Enter|r
+- Activate message prompt to "Allies" only. Press |Cfffed312Enter|r again to send message.
+
+|Cfffed312Arrow Keys|r
+- Scroll game view.
+
+|Cfffed312Tab|r
+- Switch between subgroups.
+
+|Cfffed312Alt|r (when held issuing a command)
+- Override formation movement during an action.
+
+|Cfffed312Ctrl|r (when held issuing a command)
+- Send action to currently active subgroup only.
+
+|Cfffed312Ctrl + <#>|r
+- Assign selected units or buildings to group.
+
+|Cfffed312Shift + <#>|r
+- Add selected units to active group.
+
+|Cfffed312<#>|r
+- Select assigned group. Two rapid presses center view on assigned group.
+
+|Cfffed312F1 - F5|r
+- Select corresponding Hero. Two rapid presses center view on corresponding Hero.
+
+|Cfffed312F8 / ~|r
+- Select idle worker unit(s).
+
+|Cfffed312Backspace|r
+- Cycle through town center buildings.
+
+|Cfffed312Spacebar|r
+- Center on last notification(s). 
+
+|Cfffed312Ctrl - C / Alt - C|r
+- Center on the unit with the active portrait.
+
+|Cfffed312Shift + Select Unit|r
+- Add/Remove unit from current selection.
+
+|Cfffed312Ctrl + Select Unit / Double-Click Unit|r
+- Select all units of that type in the game view.
+
+|Cfffed312Mouse Wheel Up / Page Up|r
+- Lower and zoom in the game camera.
+
+|Cfffed312Mouse Wheel Down / Page Down|r
+- Raise and zoom out the game camera.
+
+|Cfffed312Insert|r
+- Rotate camera to the left.
+
+|Cfffed312Delete|r
+- Rotate camera to the right.
+
+|Cfffed312Print Scrn|r
+- Save an image of the screen to a file in your Warcraft III directory.

@@ -1,0 +1,5 @@
+[Listener]
+ListenerDistance=1700,1550,1400,1200,1000,800
+ListenerAOA=85,70,55,45,35,25
+ListenerMaxCinematicDistance=1500
+

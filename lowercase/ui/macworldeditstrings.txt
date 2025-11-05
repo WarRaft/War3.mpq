@@ -1,0 +1,55 @@
+#
+#  Error Dialogs
+#
+
+1000: Sorry, Warcraft III World Editor cannot run because a fatal error has occurred.
+1001: Sorry, you need Mac OS %s or later to run Warcraft III World Editor.
+1002: Sorry, you need Mac OS X %s or later to run Warcraft III World Editor.
+1003: Sorry, you need CarbonLib %s or later to run Warcraft III World Editor.
+1004: Sorry, you need DrawSprocket %s or later to run Warcraft III World Editor.
+1005: Sorry, you need OpenGL %s or later to run Warcraft III World Editor.
+1006: Sorry, you need %dMB of RAM to run Warcraft III World Editor.
+1007: Sorry, you need %dMB of virtual memory to run Warcraft III World Editor.
+1008: A required file, “%s”, is missing. Please reinstall Warcraft III.
+1009: Sorry, Warcraft III World Editor cannot be run from a locked volume.
+1010: Sorry, you are out of disk space and so Warcraft III World Editor cannot run.
+1011: Warcraft III has not been properly installed. Please reinstall the game from the Warcraft III CD.
+1012: Sorry, an error occurred while initializing OpenGL.
+1013: Sorry, you need QuickTime %s or later to run Warcraft III World Editor.
+1014: You will need to install QuickTime %s or later to view the Warcraft III cinematics. You can visit www.quicktime.com to download the latest QuickTime update.
+1015: You can install this update from the Options screen of the Warcraft III installer.
+1016: Sorry, your user account on this computer does not permit access to the Warcraft III folder.
+1017: Please have a system administrator for this computer change access privileges for your user account or the Warcraft III folder.
+
+#
+#  Game Strings
+#
+
+1100: Warcraft III World Editor
+
+#
+#  Dialog Strings
+#
+
+1200: Please insert the CD labeled “Warcraft III” or “The Frozen Throne.”
+1201: Warcraft III CD
+1202: Cancel
+1203: Copyright © 2002-2003 Blizzard Entertainment
+1204: All Rights Reserved
+
+#
+#  Menu Strings
+#
+
+2000: File
+2001: Edit
+2002: Game
+2003: About Warcraft III World Editor...
+2004: Switch to Full Screen
+2005: Quit
+2006: Undo
+2007: Cut
+2008: Copy
+2009: Paste	
+2010: Clear
+2011: Select All

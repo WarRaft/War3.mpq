@@ -1,0 +1,155 @@
+[Index]
+// The "CampaignList" key defines the campaigns which will
+// appear on the campaign selection screen.  The values listed
+// here are the section names of the specific campaign mission data
+// below.  The order of these values is significant, as that is the
+// order in which they will appear on the campaign selection screen.
+
+CampaignList="Tutorial","Human","Undead","Orc","NightElf"
+
+// The sections below make up the campaign data for each specific
+// campaign.  Each mission entry is made up of 3 comma-separated
+// strings.  In order they are: Header, Mission Name, Map Filename.
+// You can have up to 128 missions in a given campaign, but putting 
+// more than 15 will make a scrollbar appear to see the rest.
+//
+// Each campaign section can also have three cinematics associated
+// with them: Intro Cinematic, Open Cinematic, and End Cintematic.
+// The cinematic entries follow a similar pattern as the mission
+// entries: Header, Cinematic Name, Cinematic Filename.
+//
+// Using the "DefaultOpen" key, you can specify that this campaign
+// should be initially open and selectable by a new user.
+//
+// You can specify which model to use for the background, using the
+// "Background" key.  The value specified must be an entry in the
+// war3skins.txt file. Realize the this value is processed using the
+// expansion naming convention (i.e. V0, V1, etc).  You should also set 
+// the fog parameters using the "BackgroundFogXXX" keys.
+//
+// The racial cursor for the campaign can be set using the "Cursor"
+// key.  The values are as follows: Human = 0, Orc = 1, Undead = 2, 
+// Night Elf = 3.
+//      
+// Finally, you can set which ambient sound to play on this screen using
+// the "AmbientSound" key.  The value specified must be an entry in
+// the AmbienceSounds.slk file.
+
+[Tutorial]
+Header="Prologue Campaign"
+Name="Exodus of the Horde"
+DefaultOpen=1
+Background="TutorialBackdrop"
+BackgroundFogStyle=0
+BackgroundFogColor=255,0,51,77
+BackgroundFogDensity=0.5
+BackgroundFogStart=0
+BackgroundFogEnd=2000
+Cursor=1
+AmbientSound="TutorialGlueScreenLoop"
+IntroCinematic="Introduction","The Prophecy","TutorialIn"
+OpenCinematic="Cinematic","Thrall's Vision","TutorialOp"
+EndCinematic=""
+Mission0="Chapter One","Chasing Visions","Maps\Campaign\Prologue01.w3m"
+Mission1="Chapter Two","Departures","Maps\Campaign\Prologue02.w3m"
+
+[Human]
+Header="Human Campaign"
+Name="The Scourge of Lordaeron"
+DefaultOpen=1
+Background="HumanBackdrop"
+BackgroundFogStyle=0
+BackgroundFogColor=255,77,77,51
+BackgroundFogDensity=0.5
+BackgroundFogStart=0
+BackgroundFogEnd=9000
+Cursor=0
+AmbientSound="HumanGlueScreenLoop"
+IntroCinematic=""
+OpenCinematic="Cinematic","The Warning","HumanOp"
+EndCinematic="Cinematic","Arthas' Betrayal","HumanEd"
+Mission0="Chapter One","The Defense of Strahnbrad","Maps\Campaign\Human01.w3m"
+Mission1="Chapter Two","Blackrock & Roll","Maps\Campaign\Human02.w3m"
+Mission2="Interlude","Jaina's Meeting","Maps\Campaign\Human02Interlude.w3m"
+Mission3="Chapter Three","Ravages of the Plague","Maps\Campaign\Human03.w3m"
+Mission4="Chapter Four","The Cult of the Damned","Maps\Campaign\Human04.w3m"
+Mission5="Chapter Five","March of the Scourge","Maps\Campaign\Human05.w3m"
+Mission6="Interlude","The Prince and the Prophet","Maps\Campaign\Human05Interlude.w3m"
+Mission7="Chapter Six","The Culling","Maps\Campaign\Human06.w3m"
+Mission8="Interlude","Divergent Courses","Maps\Campaign\Human06Interlude.w3m"
+Mission9="Chapter Seven","The Shores of Northrend","Maps\Campaign\Human07.w3m"
+Mission10="Chapter Eight","Dissension","Maps\Campaign\Human08.w3m"
+Mission11="Chapter Nine","Frostmourne","Maps\Campaign\Human09.w3m"
+
+[Undead]
+Header="Undead Campaign"
+Name="Path of the Damned"
+Background="UndeadBackdrop"
+BackgroundFogStyle=0
+BackgroundFogColor=255,0,51,51
+BackgroundFogDensity=0.5
+BackgroundFogStart=0
+BackgroundFogEnd=8000
+Cursor=2
+AmbientSound="UndeadGlueScreenLoop"
+IntroCinematic=""
+OpenCinematic=""
+EndCinematic="Cinematic","The Destruction of Dalaran","UndeadEd"
+Mission0="Chapter One","Trudging through the Ashes","Maps\Campaign\Undead01.w3m"
+Mission1="Chapter Two","Digging up the Dead","Maps\Campaign\Undead02.w3m"
+Mission2="Interlude","The Dreadlords Convene","Maps\Campaign\Undead02Interlude.w3m"
+Mission3="Chapter Three","Into the Realm Eternal","Maps\Campaign\Undead03.w3m"
+Mission4="Chapter Four","Key of the Three Moons","Maps\Campaign\Undead04.w3m"
+Mission5="Chapter Five","The Fall of Silvermoon","Maps\Campaign\Undead05.w3m"
+Mission6="Interlude","The Revelation","Maps\Campaign\Undead05Interlude.w3m"
+Mission7="Chapter Six","Blackrock & Roll, Too!","Maps\Campaign\Undead06.w3m"
+Mission8="Chapter Seven","The Siege of Dalaran","Maps\Campaign\Undead07.w3m"
+Mission9="Chapter Eight","Under the Burning Sky","Maps\Campaign\Undead08.w3m"
+
+[Orc]
+Header="Orc Campaign"
+Name="The Invasion of Kalimdor"
+Background="OrcBackdrop"
+BackgroundFogStyle=0
+BackgroundFogColor=255,77,51,0
+BackgroundFogDensity=0.5
+BackgroundFogStart=0
+BackgroundFogEnd=2950
+Cursor=1
+AmbientSound="OrcGlueScreenLoop"
+IntroCinematic=""
+OpenCinematic=""
+EndCinematic="Cinematic","The Death of Hellscream","OrcEd"
+Mission0="Chapter One","Landfall","Maps\Campaign\Orc01.w3m"
+Mission1="Chapter Two","The Long March","Maps\Campaign\Orc02.w3m"
+Mission2="Interlude","The Wreckage of Lordaeron","Maps\Campaign\Orc02Interlude.w3m"
+Mission3="Chapter Three","Cry of the Warsong","Maps\Campaign\Orc03.w3m"
+Mission4="Chapter Four","The Spirits of Ashenvale","Maps\Campaign\Orc04.w3m"
+Mission5="Interlude","The Blood of Mannoroth","Maps\Campaign\Orc04Interlude.w3m"
+Mission6="Chapter Five","The Hunter of Shadows","Maps\Campaign\Orc05.w3m"
+Mission7="Chapter Six","Where Wyverns Dare","Maps\Campaign\Orc06.w3m"
+Mission8="Chapter Seven","The Oracle","Maps\Campaign\Orc07.w3m"
+Mission9="Chapter Eight","By Demons Be Driven","Maps\Campaign\Orc08.w3m"
+
+[NightElf]
+Header="Night Elf Campaign"
+Name="Eternity's End"
+Background="NightElfBackdrop"
+BackgroundFogStyle=0
+BackgroundFogColor=255,51,77,128
+BackgroundFogDensity=0.5
+BackgroundFogStart=0
+BackgroundFogEnd=1600
+Cursor=3
+AmbientSound="NightElfGlueScreenLoop"
+IntroCinematic=""
+OpenCinematic=""
+EndCinematic="Cinematic","Eternity's End","NightElfEd"
+Mission0="Chapter One","Enemies at the Gate","Maps\Campaign\NightElf01.w3m"
+Mission1="Chapter Two","Daughters of the Moon","Maps\Campaign\NightElf02.w3m"
+Mission2="Chapter Three","The Awakening of Stormrage","Maps\Campaign\NightElf03.w3m"
+Mission3="Chapter Four","The Druids Arise","Maps\Campaign\NightElf04.w3m"
+Mission4="Chapter Five","Brothers in Blood","Maps\Campaign\NightElf05.w3m"
+Mission5="Chapter Six","A Destiny of Flame and Sorrow","Maps\Campaign\NightElf06.w3m"
+Mission6="Interlude","The Last Guardian","Maps\Campaign\NightElf06Interlude.w3m"
+Mission7="Chapter Seven","Twilight of the Gods","Maps\Campaign\NightElf07.w3m"

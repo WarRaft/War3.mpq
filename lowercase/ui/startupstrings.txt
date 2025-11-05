@@ -1,0 +1,7 @@
+Warcraft III is already running.
+Warcraft III was unable to initialize DirectX.  Please ensure you have DirectX 8.1 or newer installed and that your display drivers are current.  DirectX may be found on your Warcraft III install CD under Options.
+Warcraft III was unable to initialize OpenGL.  Please ensure you have OpenGL installed and that your display drivers are current.
+Warcraft III was unable to open War3.mpq.  Please reinstall the game from the Warcraft III CD.
+Warcraft III was unable to find a CD Key.  Please reinstall the game from the Warcraft III CD.
+This version of Warcraft III requires a specific language version of Windows.
+

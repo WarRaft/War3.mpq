@@ -1,0 +1,136 @@
+[Index]
+// The "CampaignList" key defines the campaigns which will
+// appear on the campaign selection screen.  The values listed
+// here are the section names of the specific campaign mission data
+// below.  The order of these values is significant, as that is the
+// order in which they will appear on the campaign selection screen.
+
+CampaignList="","","","","NightElf","Human","Undead","","Orc"
+
+// The sections below make up the campaign data for each specific
+// campaign.  Each mission entry is made up of 3 comma-separated
+// strings.  In order they are: Header, Mission Name, Map Filename.
+// You can have up to 128 missions in a given campaign, but putting 
+// more than 15 will make a scrollbar appear to see the rest.
+//
+// Each campaign section can also have three cinematics associated
+// with them: Intro Cinematic, Open Cinematic, and End Cintematic.
+// The cinematic entries follow a similar pattern as the mission
+// entries: Header, Cinematic Name, Cinematic Filename.
+//
+// Using the "DefaultOpen" key, you can specify that this campaign
+// should be initially open and selectable by a new user.
+//
+// You can specify which model to use for the background, using the
+// "Background" key.  The value specified must be an entry in the
+// war3skins.txt file. Realize that this value is processed using the
+// expansion naming convention (i.e. V0, V1, etc).  You should also set 
+// the fog parameters using the "BackgroundFogXXX" keys.
+//
+// The racial cursor for the campaign can be set using the "Cursor"
+// key.  The values are as follows: Human = 0, Orc = 1, Undead = 2, 
+// Night Elf = 3.
+//      
+// Finally, you can set which ambient sound to play on this screen using
+// the "AmbientSound" key.  The value specified must be an entry in
+// the AmbienceSounds.slk file.
+
+[NightElf]
+Header="Sentinels Campaign"
+Name="Terror of the Tides"
+DefaultOpen=1
+Background="NightElfBackdrop"
+BackgroundFogStyle=0
+BackgroundFogColor=255,102,77,77
+BackgroundFogDensity=0.5
+BackgroundFogStart=0
+BackgroundFogEnd=1700
+Cursor=3
+AmbientSound="ExpansionNightElfGlueScreenLoop"
+IntroCinematic=""
+OpenCinematic="Cinematic","The Awakening","IntroX"
+EndCinematic=""
+Mission0="Chapter One","Rise of the Naga","Maps\FrozenThrone\Campaign\NightElfX01.w3x"
+Mission1="Chapter Two","The Broken Isles","Maps\FrozenThrone\Campaign\NightElfX02.w3x"
+Mission2="Chapter Three","The Tomb of Sargeras","Maps\FrozenThrone\Campaign\NightElfX03.w3x"
+Mission3="Chapter Four","Wrath of the Betrayer","Maps\FrozenThrone\Campaign\NightElfX04.w3x"
+Mission4="Interlude","Unfinished Business","Maps\FrozenThrone\Campaign\NightElfX04Interlude.w3x"
+Mission5="Chapter Five","Balancing the Scales","Maps\FrozenThrone\Campaign\NightElfX05.w3x"
+Mission6="Chapter Six","Shards of the Alliance","Maps\FrozenThrone\Campaign\NightElfX06.w3x"
+Mission7="Interlude","Malfurion's Vision","Maps\FrozenThrone\Campaign\NightElfX06Interlude.w3x"
+Mission8="Chapter Seven","The Ruins of Dalaran","Maps\FrozenThrone\Campaign\NightElfX07.w3x"
+Mission9="Chapter Eight","The Brothers Stormrage","Maps\FrozenThrone\Campaign\NightElfX08.w3x"
+Mission10="Finale","A Parting of Ways","Maps\FrozenThrone\Campaign\NightElfX08Finale.w3x"
+
+[Human]
+Header="Alliance Campaign"
+Name="Curse of the Blood Elves"
+Background="HumanBackdrop"
+BackgroundFogStyle=0
+BackgroundFogColor=255,127,51,51
+BackgroundFogDensity=0.5
+BackgroundFogStart=0
+BackgroundFogEnd=16000
+Cursor=0
+AmbientSound="ExpansionHumanGlueScreenLoop"
+IntroCinematic=""
+OpenCinematic=""
+EndCinematic=""
+Mission0="Chapter One","Misconceptions","Maps\FrozenThrone\Campaign\HumanX01.w3x"
+Mission1="Chapter Two","A Dark Covenant","Maps\FrozenThrone\Campaign\HumanX02.w3x"
+Mission2="Chapter Three","The Dungeons of Dalaran","Maps\FrozenThrone\Campaign\HumanX03.w3x"
+Mission3="Secret Level","The Crossing","Maps\FrozenThrone\Campaign\HumanX03Secret.w3x"
+Mission4="Interlude","The Dusts of Outland","Maps\FrozenThrone\Campaign\HumanX03Interlude.w3x"
+Mission5="Chapter Four","The Search for Illidan","Maps\FrozenThrone\Campaign\HumanX04.w3x"
+Mission6="Interlude","Illidan's Task","Maps\FrozenThrone\Campaign\HumanX04Interlude.w3x"
+Mission7="Chapter Five","Gates of the Abyss","Maps\FrozenThrone\Campaign\HumanX05.w3x"
+Mission8="Chapter Six","Lord of Outland","Maps\FrozenThrone\Campaign\HumanX06.w3x"
+Mission9="Finale","Kil'jaeden's Command","Maps\FrozenThrone\Campaign\HumanX06Finale.w3x"
+
+[Undead]
+Header="Scourge Campaign"
+Name="Legacy of the Damned"
+Background="UndeadBackdrop"
+BackgroundFogStyle=0
+BackgroundFogColor=255,178,178,204
+BackgroundFogDensity=0.5
+BackgroundFogStart=0
+BackgroundFogEnd=8000
+Cursor=2
+AmbientSound="ExpansionUndeadGlueScreenLoop"
+IntroCinematic=""
+OpenCinematic=""
+EndCinematic="Cinematic","The Ascension","OutroX"
+Mission0="Chapter One","King Arthas","Maps\FrozenThrone\Campaign\UndeadX01.w3x"
+Mission1="Interlude","A Kingdom Divided","Maps\FrozenThrone\Campaign\UndeadX01Interlude.w3x"
+Mission2="Chapter Two","The Flight from Lordaeron","Maps\FrozenThrone\Campaign\UndeadX02.w3x"
+Mission3="Interlude","Sylvanas' Farewell","Maps\FrozenThrone\Campaign\UndeadX02Interlude.w3x"
+Mission4="Chapter Three","The Dark Lady","Maps\FrozenThrone\Campaign\UndeadX03.w3x"
+Mission5="Chapter Four","The Return to Northrend","Maps\FrozenThrone\Campaign\UndeadX04.w3x"
+Mission6="Chapter Five","Dreadlord's Fall","Maps\FrozenThrone\Campaign\UndeadX05.w3x"
+Mission7="Chapter Six","A New Power in Lordaeron","Maps\FrozenThrone\Campaign\UndeadX06.w3x"
+Mission8="Chapter Seven, Part One","Into the Shadow Web Caverns","Maps\FrozenThrone\Campaign\UndeadX07a.w3x"
+Mission9="Chapter Seven, Part Two","The Forgotten Ones","Maps\FrozenThrone\Campaign\UndeadX07b.w3x"
+Mission10="Chapter Seven, Part Three","Ascent to the Upper Kingdom","Maps\FrozenThrone\Campaign\UndeadX07c.w3x"
+Mission11="Interlude","Boiling Point","Maps\FrozenThrone\Campaign\UndeadX07Interlude.w3x"
+Mission12="Chapter Eight","A Symphony of Frost and Flame","Maps\FrozenThrone\Campaign\UndeadX08.w3x"
+Mission13="Finale","A Long Time Coming","Doodads\Cinematic\ArthasIllidanFight\ArthasIllidanFight.mdl"
+
+[Orc]
+Header="Bonus Campaign"
+Name="The Founding of Durotar"
+DefaultOpen=1
+Background="OrcBackdrop"
+BackgroundFogStyle=0
+BackgroundFogColor=255,76,76,102
+BackgroundFogDensity=0.5
+BackgroundFogStart=0
+BackgroundFogEnd=4500
+Cursor=1
+AmbientSound="ExpansionOrcGlueScreenLoop"
+IntroCinematic=""
+OpenCinematic=""
+EndCinematic=""
+Mission0="Chapter One","To Tame a Land","Maps\FrozenThrone\Campaign\OrcX01.w3x"
+Mission1="Chapter Two","Old Hatreds","Maps\FrozenThrone\Campaign\OrcX02.w3x",1
+Mission2="Chapter Three","A Blaze of Glory","Maps\FrozenThrone\Campaign\OrcX03a.w3x"
