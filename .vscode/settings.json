@@ -1,0 +1,6 @@
+{
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "files.associations": {
+        "*.txt": "bni"
+    }
+}

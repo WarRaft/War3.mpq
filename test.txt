@@ -1,0 +1,8 @@
+Ubertip="Mystical Hero" ,    s" , e
+
+ 
+Tip=Upgrade to Steel |cffffcc00M|relee Weapons,Upgrade to Thorium |cffffcc00M|relee Weapons,Upgrade to Arcanite |cffffcc00M|relee Weapons
+
+Art=A\some\Errr , 1, 3.3,  "Demo,3,4"    // commen222t/
+
+D = "Demo,3,4"    // commen222t 
