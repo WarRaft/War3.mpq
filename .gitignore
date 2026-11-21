@@ -1,6 +1,7 @@
 /target/
 /.idea/
 /.vscode/
-.ds_store
 *.iml
 Cargo.lock
+# macOS Finder files, in any case (.DS_Store, .ds_store)
+.[Dd][Ss]_[Ss][Tt][Oo][Rr][Ee]
